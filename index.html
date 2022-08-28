@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Website Using HTML and CSS</title>
+	<link href="favicon.jpeg" rel="icon">
+</head>
+<style>
+	body{
+		background-image: url(backgroundp.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.logo img{
+		float: left;
+		width: 150px;
+		height: 60px;
+		margin-top: 50px;
+		margin-left: 90px;
+	}
+	ul{
+		float: right;
+		list-style-type: none;
+		margin-top: 60px;
+		font-size: 20px;
+	}
+	ul li{
+		display: inline-block;
+	}
+	ul li a{
+		text-decoration: none;
+		color: white;
+		border: 1px solid white;
+		padding: 5px 20px;
+	}
+	ul li a:hover{
+		background-color: #b7bf5e;
+		transition: 0.7 ease;
+	}
+	.title{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.title h1{
+		color: ghostwhite;
+		font-size: 35px;
+	}
+	.title h3{
+		color: black;
+		font-family: cursive;
+		font-size: 20px;
+		text-decoration: underline;
+		text-align: center;
+	}
+	.button{
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.btn{
+		border: 1px solid white;
+		padding: 10px 30px;
+		color: black;
+		text-decoration: none;
+		font-size: 20px;
+		background-color: white;
+    }
+    .btn:hover{
+    	background-color: #b7bf5e;
+		transition: 0.7 ease;
+    }
+</style>
+<body>
+	<div class="main">
+		<div class="logo">
+			<img src="Logo_.png">
+		</div>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">SERVICES</a></li>
+			<li><a href="https://www.wallpaperflare.com/search?wallpaper=Overwater+Bungalows">GALLERY</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+	</div>
+	<div class="title">
+		<h1>SIMPLE AND BEAUTIFUL WEBPAGE</h1>
+		<h3>USING HTML AND CSS STEP BY STEP</h3>
+	</div>
+	<div class="button">
+		<a href="#" class="btn">GET STARTED</a>
+		<a href="#" class="btn">SUBSCRIBE US</a>
+	</div>
+</body>
+</html>
